@@ -4,15 +4,6 @@ metadata:
   name: app-applicationset
   namespace: argocd
 spec:
-  destination:
-    name: ''
-    namespace: ''
-    server: ''
-  source:
-    path: ''
-    repoURL: ''
-    targetRevision: HEAD
-  project: ''
   generators:
     - list:
         elements:
